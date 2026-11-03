@@ -1,0 +1,104 @@
+﻿/**
+ * 颜色 Token
+ *
+ * 命名规则：
+ * - 主色：--color-brand-{level}  level: 50/100/200/300/400/500/600/700/800/900
+ * - 功能色：--color-{type}  type: success/warning/danger/info
+ * - 中性色：--color-{level}  level: 100-900
+ * - 文本色：--text-{level}  level: primary/secondary/tertiary/disabled
+ * - 背景色：--bg-{level}  level: page/card/container
+ * - 边框色：--border-{level}  level: light/base
+ *
+ * 品牌色：#F5A800（暂定，以品牌手册为准）
+ */
+
+:root {
+  /* ============================================================
+     主色 Brand
+     ============================================================ */
+  --color-brand-50: #fff7e0;
+  --color-brand-100: #ffecb3;
+  --color-brand-200: #ffdf80;
+  --color-brand-300: #ffd14d;
+  --color-brand-400: #ffc41a;
+  --color-brand-500: #f5a800; /* 主色 */
+  --color-brand-600: #d98f00;
+  --color-brand-700: #b07300;
+  --color-brand-800: #875800;
+  --color-brand-900: #5e3d00;
+
+  /* 主色透明态 */
+  --color-brand-opacity-10: rgb(245 168 0 / 10%);
+  --color-brand-opacity-20: rgb(245 168 0 / 20%);
+  --color-brand-opacity-30: rgb(245 168 0 / 30%);
+
+  /* ============================================================
+     功能色 Functional
+     ============================================================ */
+
+  /* 成功 Success */
+  --color-success-50: #e8fff3;
+  --color-success-100: #b3ffd6;
+  --color-success-500: #00b578;
+  --color-success-600: #096;
+
+  /* 警告 Warning */
+  --color-warning-50: #fff4e0;
+  --color-warning-100: #ffe0b3;
+  --color-warning-500: #ff8a00;
+  --color-warning-600: #e67300;
+
+  /* 危险/错误 Danger */
+  --color-danger-50: #ffebeb;
+  --color-danger-100: #ffbfbf;
+  --color-danger-500: #f53f3f;
+  --color-danger-600: #d92b2b;
+
+  /* 信息 Info */
+  --color-info-50: #e8f3ff;
+  --color-info-100: #b8d7ff;
+  --color-info-500: #3491fa;
+  --color-info-600: #1f70e6;
+
+  /* ============================================================
+     中性色 Neutral
+     ============================================================ */
+  --color-50: #f7f8fa;
+  --color-100: #f2f3f5;
+  --color-200: #e5e6eb;
+  --color-300: #c9cdd4;
+  --color-400: #86909c;
+  --color-500: #4e5969;
+  --color-600: #272e3b;
+  --color-700: #1d2129;
+  --color-800: #0f1218;
+  --color-900: #000;
+
+  /* ============================================================
+     文本色 Text
+     ============================================================ */
+  --text-primary: #1a1a1a;
+  --text-secondary: #6b6b6b;
+  --text-tertiary: #999;
+  --text-disabled: #ccc;
+  --text-placeholder: #bfbfbf;
+  --text-white: #fff;
+
+  /* ============================================================
+     背景色 Background
+     ============================================================ */
+  --bg-page: #f5f6f7;
+  --bg-card: #fff;
+  --bg-container: #f2f3f5;
+  --bg-hover: #f7f8fa;
+  --bg-active: #e5e6eb;
+  --bg-mask: rgb(0 0 0 / 50%);
+  --bg-overlay: rgb(0 0 0 / 70%);
+
+  /* ============================================================
+     边框色 Border
+     ============================================================ */
+  --border-light: #f2f3f5;
+  --border-base: #e5e6eb;
+  --border-strong: #c9cdd4;
+}

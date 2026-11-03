@@ -1,0 +1,10 @@
+dist/
+unpackage/
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+src/uni.scss
+src/auto-imports.d.ts
+.git/
+.husky/_
+.agents/

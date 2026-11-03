@@ -1,0 +1,44 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-recommended-scss"],
+  "overrides": [
+    {
+      "files": ["**/*.vue"],
+      "customSyntax": "postcss-html"
+    }
+  ],
+  "rules": {
+    "unit-no-unknown": [true, { "ignoreUnits": ["rpx"] }],
+    "selector-type-no-unknown": [
+      true,
+      {
+        "ignoreTypes": [
+          "page",
+          "view",
+          "text",
+          "image",
+          "button",
+          "input",
+          "textarea",
+          "navigator",
+          "scroll-view",
+          "swiper",
+          "swiper-item",
+          "cover-view",
+          "cover-image",
+          "icon",
+          "picker",
+          "radio",
+          "checkbox",
+          "switch",
+          "slider",
+          "map",
+          "video",
+          "canvas"
+        ]
+      }
+    ],
+    "no-descending-specificity": null,
+    "declaration-block-no-redundant-longhand-properties": null,
+    "font-family-no-missing-generic-family-keyword": null
+  }
+}

@@ -1,0 +1,43 @@
+﻿/**
+ * 字体排版 Token
+ */
+
+:root {
+  /* ============================================================
+     字体大小 Font Size
+     ============================================================ */
+  --font-size-xs: 20rpx; /* 10px - 角标、标签 */
+  --font-size-sm: 24rpx; /* 12px - 辅助文字 */
+  --font-size-base: 28rpx; /* 14px - 正文 */
+  --font-size-md: 30rpx; /* 15px - 小标题 */
+  --font-size-lg: 32rpx; /* 16px - 列表标题 */
+  --font-size-xl: 36rpx; /* 18px - 页面标题 */
+  --font-size-2xl: 44rpx; /* 22px - 大标题 */
+  --font-size-3xl: 56rpx; /* 28px - 超大数字 */
+
+  /* ============================================================
+     行高 Line Height
+     ============================================================ */
+  --line-height-xs: 28rpx;
+  --line-height-sm: 36rpx;
+  --line-height-base: 40rpx;
+  --line-height-lg: 48rpx;
+  --line-height-xl: 52rpx;
+  --line-height-2xl: 64rpx;
+
+  /* ============================================================
+     字重 Font Weight
+     ============================================================ */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* ============================================================
+     字体系列
+     ============================================================ */
+  --font-family-base:
+    -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  --font-family-number: "DIN Alternate", -apple-system, blinkmacsystemfont, sans-serif;
+}

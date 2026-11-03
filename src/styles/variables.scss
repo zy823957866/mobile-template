@@ -1,0 +1,87 @@
+﻿/**
+ * SCSS 变量（与 CSS 变量对齐，便于 scoped 样式中使用）
+ *
+ * 注意：优先使用 UnoCSS 原子类，SCSS 变量只在必须写 scoped 样式时使用
+ */
+
+// ============================================================
+// 颜色
+// ============================================================
+
+// 主色
+$color-brand-50: #fff7e0;
+$color-brand-100: #ffecb3;
+$color-brand-500: #f5a800;
+$color-brand-600: #d98f00;
+
+// 功能色
+$color-success: #00b578;
+$color-warning: #ff8a00;
+$color-danger: #f53f3f;
+$color-info: #3491fa;
+
+// 文本色
+$text-primary: #1a1a1a;
+$text-secondary: #6b6b6b;
+$text-tertiary: #999;
+$text-disabled: #ccc;
+
+// 背景色
+$bg-page: #f5f6f7;
+$bg-card: #fff;
+$bg-container: #f2f3f5;
+
+// 边框色
+$border-light: #f2f3f5;
+$border-base: #e5e6eb;
+
+// ============================================================
+// 间距
+// ============================================================
+
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+
+$page-x: 48rpx; // 页面左右边距
+
+// ============================================================
+// 字号
+// ============================================================
+
+$font-size-xs: 20rpx;
+$font-size-sm: 24rpx;
+$font-size-base: 28rpx;
+$font-size-lg: 32rpx;
+$font-size-xl: 36rpx;
+$font-size-2xl: 44rpx;
+
+// ============================================================
+// 圆角
+// ============================================================
+
+$radius-sm: 8rpx;
+$radius-md: 12rpx;
+$radius-lg: 16rpx;
+$radius-xl: 24rpx;
+$radius-full: 9999rpx;
+
+// ============================================================
+// 阴影
+// ============================================================
+
+$shadow-sm: 0 2rpx 8rpx rgb(0 0 0 / 6%);
+$shadow-md: 0 4rpx 16rpx rgb(0 0 0 / 8%);
+$shadow-lg: 0 8rpx 24rpx rgb(0 0 0 / 10%);
+
+// ============================================================
+// 尺寸
+// ============================================================
+
+$height-button: 88rpx;
+$height-input: 80rpx;
+$height-cell: 96rpx;
+$height-navbar: 88rpx;
+$height-tabbar: 98rpx;

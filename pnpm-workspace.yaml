@@ -1,0 +1,8 @@
+allowBuilds:
+  "@parcel/watcher": false
+  core-js: false
+  core-js-pure: false
+  esbuild: true
+  vue-demi: false
+patchedDependencies:
+  "@wot-ui/ui@2.4.0": patches/@wot-ui__ui@2.4.0.patch
